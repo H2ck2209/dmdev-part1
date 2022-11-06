@@ -8,20 +8,11 @@ public class Lesson4_2 {
         int tossResult = random.nextInt(1, 6 );
 
         switch (tossResult) {
-            case 1:
-                System.out.println("Bayern");
-                break;
-            case 2:
-                System.out.println("Real Madrid");
-                break;
-            case 3:
-                System.out.println("Porto");
-                break;
-            case 4:
-                System.out.println("Benfica");
-                break;
-            default:
-                System.out.println("YNWA");
+            case 1 -> System.out.println("Bayern");
+            case 2 -> System.out.println("Real Madrid");
+            case 3 -> System.out.println("Porto");
+            case 4 -> System.out.println("Benfica");
+            default -> System.out.println("YNWA");
         }
     }
 }
