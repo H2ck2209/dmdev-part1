@@ -1,9 +1,8 @@
 package lesson4;
 
 import java.util.Random;
-import java.util.Scanner;
 
-public class lesson4_4 {
+public class Part4 {
      public static void main(String[] args) {
           Random random = new Random();
           String portoTossResult;
@@ -20,8 +19,6 @@ public class lesson4_4 {
           };
           System.out.println(portoTossResult);
 
-          String word = "BigData";
-          String subword = word.substring(0,3);
-          System.out.println(subword);
+
      }
 }
