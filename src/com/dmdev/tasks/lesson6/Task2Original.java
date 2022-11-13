@@ -4,7 +4,7 @@ package com.dmdev.tasks.lesson6;
 
 public class Task2Original {
     public static void main(String[] args) {
-        int value = 222 ;
+        int value = 222;
         int sum = sum(value);
         System.out.println(sum);
         int sumFor = sumFor(value);
@@ -13,8 +13,8 @@ public class Task2Original {
 
     public static int sumFor(int value) {
         int result = 0;
-        for (int currentValue = value; currentValue !=0 ; currentValue /=10) {
-        result += currentValue % 10;
+        for (int currentValue = value; currentValue != 0; currentValue /= 10) {
+            result += currentValue % 10;
         }
         return result;
     }

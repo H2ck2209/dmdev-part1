@@ -15,7 +15,7 @@ public class Task4Original {
         System.out.println(resultWhile);
     }
 
-    public static boolean isSimpleWhile (int value) {
+    public static boolean isSimpleWhile(int value) {
         boolean result = true;
         int i = 2;
         while (i < value) {
@@ -25,7 +25,8 @@ public class Task4Original {
                 break;
             }
             i++;
-        }return result;
+        }
+        return result;
     }
 
 

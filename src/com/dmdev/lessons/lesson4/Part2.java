@@ -5,7 +5,7 @@ import java.util.Random;
 public class Part2 {
     public static void main(String[] args) {
         Random random = new Random();
-        int tossResult = random.nextInt(1, 6 );
+        int tossResult = random.nextInt(1, 6);
 
         switch (tossResult) {
             case 1 -> System.out.println("Bayern");

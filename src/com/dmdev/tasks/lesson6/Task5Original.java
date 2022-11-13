@@ -9,7 +9,7 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Task5Original {
     public static void main(String[] args) {
-        printAllСonsonants();
+        printAllConsonants();
         System.out.println("*****");
         printBeforeVowel();
     }
@@ -22,7 +22,7 @@ public class Task5Original {
         }
     }
 
-    public static void printAllСonsonants() {
+    public static void printAllConsonants() {
         for (char letter = 'b'; ; letter++) {
             var temp = 'z';
             temp++;

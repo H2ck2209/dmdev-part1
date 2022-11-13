@@ -12,7 +12,7 @@ public class Task1Original {
         System.out.println(result2);
     }
 
-    public static long whileFactorial (int value) {
+    public static long whileFactorial(int value) {
         long result = 1;
         int i = 1;
         while (i <= value) {
@@ -24,9 +24,9 @@ public class Task1Original {
     }
 
 
-    public static long factorial (int value) {
+    public static long factorial(int value) {
         long result = 1;
-        for (int i = 1; i <= value ; i++) {
+        for (int i = 1; i <= value; i++) {
             result *= i;
         }
         return result;
