@@ -12,11 +12,12 @@ public class Task1 {
         int[] values = {1, 5, 7, 9, 11};
         printArray(values);
         printArrayForeach(values);
+        printArrayReverse(values);
     }
 
 
-    public static void printArrayForeach (int[] values) {
-        for (int value : values) {// справа - интересующая нас структура данных, слева - единица структуры данных
+    public static void printArrayForeach(int[] values) {
+        for (int value : values) { // справа - интересующая нас структура данных, слева - единица структуры данных
             System.out.print(value + " ");
         }
     }

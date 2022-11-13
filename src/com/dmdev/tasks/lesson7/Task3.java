@@ -13,11 +13,18 @@ public class Task3 {
                 {9, 10}
         };
 
+//        var ints = new int[2][];
+//        ints[0] = new int[]{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+//        ints[1] = new int[]{1};
+
         int[][] values2 = {
                 {1, 2, 3},//row2
                 {5, 2, 8},
                 {9, 10}
         };
+
+        var value = values2[0][2];
+
         //boolean result = equals(values1, values2);
         System.out.println(equals(values1, values2));
     }
