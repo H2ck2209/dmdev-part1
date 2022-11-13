@@ -13,10 +13,9 @@ public class Task1 {
         int value = scanner.nextInt();
 //        System.out.println("Факториал числа " + value + " равен " + whileFactorial(value));
         System.out.println("Факториал числа " + value + " равен " + factorial(value));
-
     }
 
-    private static int factorial(int value) {
+    private static Integer factorial(int value) {
         Integer result = 1;
         if (value > 0) {
             for (int i = 1; i <= value; i++) {
@@ -31,26 +30,24 @@ public class Task1 {
         return result;
     }
 
-        private static void voidFactorial(int value) {
-            int result = 1;
-            if (value > 0) {
-                for (int i = 1; i <= value; i++) {
-                    result = result * i;
-                }
-                System.out.println("Факториал числа " + value + " равен " + result);
-            } else if (value == 0) {
-                result = 1;
-                System.out.println("Факториал нуля равен " + result);
+    private static void voidFactorial(int value) {
+        int result = 1;
+        if (value > 0) {
+            for (int i = 1; i <= value; i++) {
+                result = result * i;
             }
-            else  {
-                System.out.println("Факториал можно рассчитать только для неотрицательного числа");
-            }
+            System.out.println("Факториал числа " + value + " равен " + result);
+        } else if (value == 0) {
+            result = 1;
+            System.out.println("Факториал нуля равен " + result);
+        } else {
+            System.out.println("Факториал можно рассчитать только для неотрицательного числа");
+        }
     }
-
 
     private static int whileFactorial(int value) {
         int result = 1;
-        while (true){
+        while (true) {
             if (value > 0) {
                 for (int i = 1; i <= value; i++) {
                     result = result * i;

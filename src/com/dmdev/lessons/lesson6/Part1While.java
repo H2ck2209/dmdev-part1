@@ -10,8 +10,8 @@ public class Part1While {
         int value = 0;
         do {
             System.out.println(value);
-            value ++;
-        }while (value < 10);
+            value++;
+        } while (value < 10);
     }
 
     private static void whileExample() {

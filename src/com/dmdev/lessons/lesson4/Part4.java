@@ -18,7 +18,5 @@ public class Part4 {
                default -> "Toss result";
           };
           System.out.println(portoTossResult);
-
-
      }
 }

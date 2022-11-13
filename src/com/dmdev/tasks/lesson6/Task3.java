@@ -17,13 +17,11 @@ public class Task3 {
     }
 
 
-    public static double sumMoney (double startSum, int startYear, double benefit,int currentYear) {
-        double sum = startSum;
+    public static double sumMoney(double startSum, int startYear, double benefit, int currentYear) {
         for (int i = startYear + 1; i <= currentYear; i++) {
-        sum = sum + sum * benefit;
-            System.out.println("В году " + i + " общая сумма равна " + sum);
+            startSum = startSum + startSum * benefit;
+            System.out.println("В году " + i + " общая сумма равна " + startSum);
         }
-         return sum;
+        return startSum;
     }
-
 }
